@@ -15,11 +15,11 @@ const cars = ['Ford', 'Chevy', 'Honda', 'Toyota'];
 
 // };
 
-// cars.forEach(function(car, index, array){
-//     console.log(`${index} : ${car}`);
-//     console.log(array);
+cars.forEach(function(car, index, array){
+    console.log(`${index} : ${car}`);
+    console.log(array);
 
-// });
+});
 
 // // Map 
 // const users = [{id: 1, name: 'John'}, {id: 2, name: 'Sara'},
